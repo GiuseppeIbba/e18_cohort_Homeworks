@@ -1,0 +1,55 @@
+# Git & GitHub Homework
+
+### Local
+
+* Create a folder
+* Initialize a git repository in the folder
+* Create a couple of text files .txt
+* Stage the files
+* Commit the files to the repository
+* Change the files
+* Commit the changes
+
+### Remote - Github
+
+* Create new repository
+
+### Local
+
+* Add the github remote
+* Push to the remote repository
+
+## Further...
+
+Investigate gitignore files.
+
+-----------------------------------------
+--------# Git & GitHub Homework #--------
+-----------------------------------------
+### Local
+
+Create a folder:
+- In terminal type   mkdir foldername;
+- Move into the folder typing   cd foldername;
+- Initialize the repository typing   git init;
+- Create a couple of text files typing   touch namefile.txt namefile2.txt
+    check with  git status if the files were created;
+- Stage the files (flag a file's changes to be saved to git) typing   git add . ;
+    We can also type ou the full file names. "." will add the all;
+- Commit (save files to git) the files to the repository typing   git commit -m "commit";
+- Change files open atom in the repository directory  atom .   and change the files;
+- Commit the changes git commit -m "commit";
+
+### Remote - Github
+
+- Create new repository going to https://github.com/ and logging in with your account;
+- Click the new repository button in the top-right. "+" . Choose your repository name;
+- Create your new repository and copy the link to the clipboard in ssh format;
+
+
+### Local
+
+- Add the github remote in your git repository folder typing:  
+       git remote add origin git@github.com:USERNAME/REPOSITORYNAME.git;
+- Push files to the remote repository typing  git push -u origin master.
+- Next time just type  git push -u    to push files.
